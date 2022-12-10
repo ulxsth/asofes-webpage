@@ -9,13 +9,35 @@
 .center {float: center;}
 .clear { clear: both;}
 
+/* ロード時にフェードイン */
+/* body {
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+} */
+
+
 body {
     background-color: aliceblue;
 }
 
 main {
     background-color: white;
+    box-shadow: 0 -30px rgb(230, 237, 243);
 }
+
 
 .headline {
     margin: 50px auto;
@@ -23,8 +45,9 @@ main {
     font-size: 60px;
     text-align: center;
     font-family: 'M PLUS Rounded 1c';
-    /* font-family: 'Lucida Sans Unicode'; */
     border-bottom: 5px solid;
+    
+    position: relative;
 }
 
 /* スライダー */
