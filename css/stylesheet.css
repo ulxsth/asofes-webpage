@@ -10,7 +10,7 @@
 .clear { clear: both;}
 
 /* ロード時にフェードイン */
-/* body {
+body {
     animation: fadein 3s;
 }
 
@@ -26,7 +26,7 @@
     100% {
         opacity: 1;
     }
-} */
+}
 
 
 body {
