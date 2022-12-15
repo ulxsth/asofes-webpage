@@ -1,4 +1,4 @@
-/* スマホ用 */
+/* スマホ */
 @media screen and (max-width: 700px) {
     .headline {
         font-size: 3rem;
@@ -17,7 +17,7 @@
     }
 }
 
-/* PC用 */
+/* タブレット・PC */
 @media screen and (min-width: 701px) {
     .left-img {
         float: left;
@@ -27,5 +27,12 @@
     .right-img {
         float: right;
         margin: 0 0 2rem 3rem;
+    }
+}
+
+/* PC */
+@media screen and (min-width: 1401px) {
+    .content img {
+        width: 35rem;
     }
 }
