@@ -1,0 +1,31 @@
+/* スマホ用 */
+@media screen and (max-width: 700px) {
+    .headline {
+        font-size: 3rem;
+        padding-top: 5rem;
+    }
+
+    .content-container {
+        margin: auto 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .content img {
+        margin: 0 auto;
+        margin-bottom: 3rem;
+        width: 20rem;
+    }
+}
+
+/* PC用 */
+@media screen and (min-width: 701px) {
+    .left-img {
+        float: left;
+        margin: 0 3rem 2rem 0;
+    }
+
+    .right-img {
+        float: right;
+        margin: 0 0 2rem 3rem;
+    }
+}
